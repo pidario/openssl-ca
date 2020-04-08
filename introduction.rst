@@ -16,7 +16,7 @@ website, or for issuing certificates to clients to allow them to authenticate
 to a server (eg, Apache, OpenVPN).
 
 This guide was originally posted `here`_ by `Jamie Nguyen`_.
-Comments to the original post can be found in `discourse`_
+Comments to the original post can be found in `discourse`_.
 
 .. _Jamie Nguyen: https://jamielinux.com
 .. _here: https://jamielinux.com/docs/openssl-certificate-authority
