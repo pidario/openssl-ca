@@ -69,7 +69,7 @@ and reference it in ``server_cert`` section.
     DNS.3          = m.example.com
 
 In order to keep this extension when the intermediate
-CA signs this CSR, ``copy_extension = copy`` must be
+CA signs this CSR, ``copy_extensions = copy`` must be
 present in section ``[ CA_default ]`` in
 ``intermediate/openssl.cnf``.
 
