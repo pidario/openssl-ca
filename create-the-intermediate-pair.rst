@@ -52,17 +52,18 @@ CA directory tree. ``crlnumber`` is used to keep track of :ref:`certificate revo
 Copy the
 :ref:`intermediate configuration file<Intermediate configuration file>`
 to ``/root/ca/intermediate/openssl.cnf``.
-Five options have been changed compared to the root
+Six options have been changed compared to the root
 CA configuration file:
 
 ::
 
     [ CA_default ]
-    dir         = /root/ca/intermediate
-    private_key = $dir/private/intermediate.key.pem
-    certificate = $dir/certs/intermediate.cert.pem
-    crl         = $dir/crl/intermediate.crl.pem
-    policy      = policy_loose
+    dir             = /root/ca/intermediate
+    private_key     = $dir/private/intermediate.key.pem
+    certificate     = $dir/certs/intermediate.cert.pem
+    crl             = $dir/crl/intermediate.crl.pem
+    policy          = policy_loose
+    copy_extensions = copy
 
 Create the intermediate key
 ---------------------------
